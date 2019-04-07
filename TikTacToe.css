@@ -1,0 +1,82 @@
+body{
+  background: #fc00ff;
+  background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+  background: linear-gradient(to right, #00dbde, #fc00ff);
+  font-family: 'Courgette', cursive;
+}
+
+
+.header{
+  text-align: center;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+.header h1{
+  margin-bottom: 0;
+  font-family: 'Lobster', cursive;
+  font-size: 2.5em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -3px black;
+}
+
+.gameBody{
+  color: yellow;
+  display: grid;
+  grid-template-columns:auto;
+  justify-content: center;
+}
+.gameInterface{
+
+  text-align: center;
+}
+
+.gameTable{
+  border: 2px solid royalblue;
+  border-collapse: collapse;
+
+}
+.gameTable td{
+  height: 12vh;
+  width: 10vw;
+}
+
+.gameButtons{
+  height: 12vh;
+  width: 10vw;
+}
+.gameButtons:hover{
+  box-shadow: 0 2px 8px 0 white, 0 2px 8px 0 white;
+}
+#newGame{
+  margin-top: 7vh;
+  border-radius: 20px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: transparent;
+  border:2px solid cyan;
+  color: white;
+  font-weight:900;
+}
+#newGame:hover{
+  border-color:white;
+  box-shadow: 0 2px 20px 0 white, 0 3px 10px 0 pink;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -3px black;
+  transform: scale(1.1);
+}
+
+.footer{
+  color: white;
+  margin-top: 8vh;
+  text-align: center;
+}
+.footer a{
+  text-decoration: none;
+}
+.images{
+  height: 6vh;
+  border-radius: 10px;
+}
+.images:hover{
+    transform: scale(1.3);
+}
